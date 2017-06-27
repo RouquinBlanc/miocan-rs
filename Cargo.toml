@@ -1,0 +1,9 @@
+[package]
+name = "miocan"
+version = "0.1.0"
+authors = ["Jonathan Martin <therouquinblanc@gmail.com>"]
+description = "socketcan adapter for Metal I/O"
+
+[dependencies]
+mio = "0.6.9"
+socketcan = { git = "https://github.com/RouquinBlanc/socketcan-rs", branch="release/1.6"}
