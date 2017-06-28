@@ -8,4 +8,4 @@ repository = "https://github.com/RouquinBlanc/miocan-rs"
 
 [dependencies]
 mio = "0.6.9"
-socketcan = { git = "https://github.com/RouquinBlanc/socketcan-rs", branch="release/1.6"}
+socketcan = { git = "https://github.com/mbr/socketcan-rs", branch="1.7.0"}
