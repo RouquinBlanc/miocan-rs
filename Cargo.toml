@@ -7,5 +7,5 @@ license = "MIT"
 repository = "https://github.com/RouquinBlanc/miocan-rs"
 
 [dependencies]
-mio = "0.6.9"
+mio = "0.6"
 socketcan = { git = "https://github.com/mbr/socketcan-rs", branch="1.7.0"}
